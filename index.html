@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+</head>
+<body>
+    <div style="border:1px solid black; width: 250px; height: 250px; border-radius: 12px;">
+        <h3 style="text-align: center">Prompt Based Calculator</h3>
+        <p style="text-align: center;">by<cite>Muhammad Zaid</cite></p>
+    <script>
+        let x = Number(prompt ("Enter first digit"));
+        let y = Number (prompt ("Enter second digit "));
+        let op = prompt ("==ENTER OPERATOR==\n+\n-\nx\n÷\n%");
+        
+        if(op === "+"){document.write("Result:" + (x+y));}
+        else if (op === "-"){document.write("Result:" + (x-y));}
+        else if (op === "*"){document.write("Result:" + (x*y));}
+        else if (op === "x"){document.write("Result:" + (x*y));}
+        else if (op === "X"){document.write("Result:" + (x*y));}
+        else if(op === "/"){document.write("Result:" + (x/y));}
+        else if(op === "÷"){document.write("Result:" + (x/y));}
+        else if(op === "%"){document.write("Result:" + (x%y));}
+    </script>
+    <br>
+    <button onclick="document.location.reload()" style="margin: 100px 60px 0px 60px; background-color: red; color: white; font-weight: bold; border-radius: 5px; border:1px solid black; ">Restart Calculator</button>
+    
+    </div>
+</body>
+</html>
