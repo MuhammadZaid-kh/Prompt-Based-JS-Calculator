@@ -14,7 +14,7 @@ A lightweight, interactive web-based calculator that performs basic arithmetic o
 * **JavaScript (Vanilla):** For handling the calculation logic and user input prompts.
 
 ## 📖 How to Use
-1. Open the `index.html` file in any modern web browser.
+1. Open the "" https://muhammadzaid-kh.github.io/Prompt-Based-JS-Calculator/ "" file in any modern web browser.
 2. Follow the prompt to **Enter the first digit**.
 3. Follow the second prompt to **Enter the second digit**.
 4. Type your desired operator from the list: `+`, `-`, `x`, `*`, `/`, `÷`, or `%`.
